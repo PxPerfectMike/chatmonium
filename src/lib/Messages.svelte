@@ -43,9 +43,9 @@
       const createdMessage = await pb.collection('messages').create(data);
       newMessage = '';
     }
-  </script>
+</script>
   
-  <div class="messages">
+<div class="messages">
     {#each messages as message (message.id)}
       <div class="msg">
         <img
